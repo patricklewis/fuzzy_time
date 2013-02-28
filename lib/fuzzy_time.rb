@@ -1,14 +1,14 @@
-# Display the current time in a human-readable format.
-#
-# Examples
-#
-#   Time.now.fuzzy
-#   # => "half past three"
-#
-#   Time.local(2013, 1, 1, 5, 46).fuzzy
-#   # => "quarter to six"
-#
 class Time
+  # Display the current time in a human-readable format.
+  #
+  # Examples
+  #
+  #   Time.now.fuzzy
+  #   # => "half past three"
+  #
+  #   Time.local(2013, 1, 1, 5, 46).fuzzy
+  #   # => "quarter to six"
+
   def fuzzy
     # convert from 24 to 12-hour clock
     hour = self.hour % 12

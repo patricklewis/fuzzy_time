@@ -1,4 +1,4 @@
-require File.dirname(__FILE__) + "/../fuzzy_time"
+require 'spec_helper'
 
 describe Time do
   it "generates fuzzy times" do

@@ -19,4 +19,7 @@ Time.now.fuzzy
 
 Time.local(2013, 1, 1, 5, 46).fuzzy
 # => "quarter to six"
+
+Time.local(2013, 1, 1, 9, 0).fuzzy
+# => "nine o'clock"
 ```
